@@ -1,9 +1,25 @@
 #body {
   background-color: lightskyblue;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center; 
 }
 
-#button {
-  background-color: aqua;
+#Bulb {
+  background-color: lightgray;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  
+}
+
+#offOnSwitch {
+  background-color:black;
+  color: darkmagenta;
+  font-size: large; 
+  font-family: fantasy;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  margin-left: 50px;
 }
